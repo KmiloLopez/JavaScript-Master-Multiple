@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.add-box-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+  gap: 20px; /* Space between boxes */
+  width: 100%;
+  max-width: 800px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  height: 100px;
+  font-size: 18px;
+  color: #333;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.box.visible {
+  background-color: rgb(153, 22, 144); /* Change color when visible */
+  color: white;
+}
+
+.box:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.box.clicked {
+  background-color: rgb(0, 122, 204); /* Different color when clicked */
+}

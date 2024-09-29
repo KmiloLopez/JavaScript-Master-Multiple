@@ -1,0 +1,33 @@
+/* ObservedComponent.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+h1 {
+  margin-bottom: 600px;
+}
+.box.visible {
+  background-color: mediumseagreen; /* Changes when the element is visible */
+}

@@ -1,0 +1,11 @@
+.grid_parent {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr, 1fr);
+}
+.box {
+  width: 100%;
+  border: 2px solid #eb3636;
+}
+.box.clicked {
+  background-color: blueviolet;
+}
