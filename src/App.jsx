@@ -1,10 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import ObservedComponent from "./components/intersectionobserver/ObservedComponent";
-import EventDelegation from "./components/eventdelegation/EventDelegation";
-import EventDelegation2 from "./components/eventdelegation/EventDelegation2";
+import GreatLayout from "./components/greatlayout/GreatLayout";
+// import ObservedComponent from "./components/intersectionobserver/ObservedComponent";
+// import EventDelegation from "./components/eventdelegation/EventDelegation";
+// import EventDelegation2 from "./components/eventdelegation/EventDelegation2";
+import InfinityScroll from "./components/infinityscroll/InfinityScroll";
 // import Form from "./components/form/form";
 // import FilterThis from "./components/filter/Filter";
 // import FilterwithPrev from "./components/filter/FilterPREV";
@@ -41,7 +40,9 @@ function App() {
       <EventBubbling /> */}
       {/* <ObservedComponent /> */}
       {/* <EventDelegation /> */}
-      <EventDelegation2 />
+      {/* <EventDelegation2 /> */}
+      {/* <InfinityScroll /> */}
+      <GreatLayout />
     </>
   );
 }

@@ -1,0 +1,14 @@
+.boxes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.box {
+  border: 2px solid green;
+
+  padding: 60px;
+}
+.clicked {
+  background-color: coral;
+  color: white;
+}
